@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+    <!-- daisyUI and Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header class="my-5">
+        <nav class="flex justify-around">
+            <div>
+                <img src="resources/Logo.png" alt="">
+            </div>
+
+            <div>
+                <button id="sort-by-view" class="btn btn-ghost text-lg font-bold">Sort by View</button>
+            </div>
+
+            <div>
+                <button onclick="window.location.href ='blog.html'" class="btn btn-error text-white">Blog</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- category buttons -->
+        <div id="btn-container" class="flex justify-center gap-5">
+        </div>
+
+        <!-- Contents -->
+        <div id="card-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+               
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

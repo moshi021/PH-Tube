@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <!-- daisyUI and Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="text-center">
+        <h2 class="text-3xl font-bold text-red-500">Blog</h2>
+        <button onclick="window.location.href ='index.html'" class="mt-5 btn btn-accent text-white">Home</button>
+    </header>
+    <main class="mt-10">
+        <!-- let var const -->
+        <div class="ml-10">
+            <p><strong>Variable type to use:</strong></p>
+            <ol class="ml-2">
+                <li>1. var is not used anymore</li>
+                <li>2. let == we can re-assign values in it.</li>
+                <li>3. const == we can't re-assign values, but can modify values.</li>
+            </ol>
+        </div>
+
+        <!-- null vs undefined -->
+        <div class="flex justify-center ml-10 mt-10">
+            <div class="w-1/2 p-4">
+                <h3 class="text-lg font-bold">Null</h3>
+                <p># no value, on purpose</p>
+                <p># the type is <span class="underline">object</span></p>
+                <p># equal to 0 (zero)</p>
+                <p>Example: the bowl is empty</p>
+        
+            </div>
+            <div class="w-1/2 p-4">
+                <h3 class="text-lg font-bold">Undefined</h3>
+                <p># declared, but not defined</p>
+                <p># the type is <span class="underline">undefined</span></p>
+                <p># equal to NaN (Not A Number)</p>
+                <p>Example: The bowl is not exist</p>
+                
+            </div>
+        </div>
+
+        <!-- Rest API -->
+        <div class="ml-10 mt-10" >
+            <h1 class="font-bold">What Do You Mean by REST API?</h1>
+            <p>A REST API  is a set of rules for building web services. It uses standard HTTP methods like GET, POST, PUT, and DELETE for communication. REST APIs allow different software systems to interact over the web in a simple and scalable way. They are widely used in web applications.</p>
+        </div>
+
+    </main>
+</body>
+</html>
